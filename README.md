@@ -88,6 +88,12 @@ docker run -d threat-intel-bot
    THRESHOLD_MINUTES=30
    ```
 
+## Included RSS Feeds
+
+- **US-CERT Alerts:** [https://www.cisa.gov/uscert/ncas/alerts.xml](https://www.cisa.gov/uscert/ncas/alerts.xml)
+- **Threatpost:** [https://threatpost.com/feed/](https://threatpost.com/feed/)
+- **SecurityWeek:** [https://www.securityweek.com/rss](https://www.securityweek.com/rss)
+
 ## KV Storage Options
 
 - Cloudflare KV (for Workers)

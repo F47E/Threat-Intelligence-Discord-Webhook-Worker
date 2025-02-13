@@ -1,9 +1,9 @@
 // index.js
 
 const RSS_FEEDS = [
-    'https://feed1.com/rss',
-    'https://feed2.com/rss',
-    'https://feed3.com/rss'
+    'https://www.cisa.gov/uscert/ncas/alerts.xml',
+    'https://threatpost.com/feed/',
+    'https://www.securityweek.com/rss'
 ];
 const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/your_webhook_id/your_webhook_token';
 const THRESHOLD_MINUTES = 30; // Only posts items from the last 30 minutes
